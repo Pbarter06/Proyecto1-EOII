@@ -43,7 +43,7 @@ if __name__ == "__main__":
             if posy + movey >= 0 and posy + movey <= 10:
                 posy += movey
 
-            vtemp = random.choice([-0.25, 0.35])
+            vtemp = random.choice([-0.15, 0.40])
             if(temp_motor + vtemp >= 30 and temp_motor + vtemp <= 45):
                 temp_motor += vtemp
         else: #status = "IDLE"
